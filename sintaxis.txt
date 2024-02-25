@@ -1,0 +1,51 @@
+PROPIEDADES CSS:
+-color
+-text-decoration
+-font-size
+-backgroung-color
+-border radious
+-border
+-height
+-width
+-text-shadow
+-font-weigth
+-letter-spacing
+-word-spacing
+-line-height
+
+BOX MODELING: nos permite trabajar con cuales van a ser las dimensiones de una caja (elementos). Nosotros las podemos modificar.
+-height
+-width
+Ambas no siempre se pueden manipular.
+
+3 GRUPOS DE ELEMENTOS:
+1) Inline: el ancho es igual al del contenido. Nos permite poner un elemento al lado de otro. Pueden estar al lado de los Inline-Block. Ej: span, a, label, i, b, strong.
+-width: NO
+-height: NO
+2) Block: ocupa todo el ancho por defecto. No permite poner un elemento al lado de otro.  Ej: div, p, h, aside, footer, header, nav, article, section, main, name, body, br, form.
+-width: SI
+-height: SI
+3) Inline-Block: pueden recibir ancho, pero también pueden estar en la misma línea. Ej: input, img, button, select, text-area, video, audio, iframe.
+-width: SI
+-height: SI
+
+margin: espacio del borde hacia afuera.
+-Elementos Inline tampoco pueden recibir margin-top ni margin-bottom. Solo en horizontal, left y right.
+
+padding: espacio del borde hacia adentro.
+box-sizing: border-box; | hace que propiedades como padding, no se sumen al valor del height del contenido. Así nuestro margin no se modifica.
+
+Body por defecto tiene un margen de 8px. Una forma de sacarlo es darle un margin de 0px al body. La mayoria de elementos tienen un margen por defecto, pero para no tener que especificar por cada elemento el margin, podemos usar el selector universal y ahí indicar que el margin es de 0px para todos los elementos.
+
+ul y li: lista. El espacio que posee es un padding, para eleminarlo ponemos en el selector universal que padding es de 0px.
+
+En los elementos Inline solo se usa el padding en horizontal, igual que el margin. En los elementos Block e Inline-Block funciona siempre.
+
+SI QUIERO QUE UNA CAJA ESTE AL LADO DE OTRA:
+
+Queremos que box sea inline-block porque así se puede poner uno al lado de otro (display: inline-block;). De todas formas, vamos a usar FLEXBOX.
+
+border: solid 2px red;
+-1er valor: estilo. Ej: dashed.
+-2do valor: tamaño.
+-3er valor: color.
