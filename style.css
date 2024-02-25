@@ -1,0 +1,17 @@
+h1{
+    background-color: aqua; /* Elemento Block */
+    width: 200px; /* Baja el ancho, pero al ser elemento block sigue sin poder tener un lemento al lado */
+}
+
+span{
+    background-color: red;
+    width: 200px; /* No lo toma porque es un elemento inline */
+}
+
+input{
+    width: 400px;
+}
+
+label{
+    width: 200px; /* no lo toma */
+}

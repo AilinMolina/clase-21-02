@@ -1,0 +1,31 @@
+/* NORMALIZACIÓN, es lo 1ro que se aplica en el CSS */
+*{
+    box-sizing: border-box; /*selector universal: sirve para poner una propiedad en general */
+    margin: 0px;
+    padding: 0px;
+}
+/*  */
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    /* margin: 100px 50px 20px 30px; */ /* se aplican 100px arriba, 50 px derecha, 20px abajo, 30px izq*/
+    /* padding-top: 20px;
+    padding-left: 20px; */
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: solid 2px red;
+}
+
+span{
+    margin-left: 30px;
+}
+
+b{
+    margin: 0 20px;
+}
+
+.box h2{
+    color: white;
+}
